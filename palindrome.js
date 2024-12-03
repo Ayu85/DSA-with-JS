@@ -13,7 +13,7 @@ function reverseNumber(num) {
   while (num > 0) {
     let rem = num % 10;
     rev = rev * 10 + rem;
-    num = Math.floor(Math.min(num / 10));
+    num = Math.floor(num/10);
   }
   return rev;
 }
