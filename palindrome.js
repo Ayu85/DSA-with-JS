@@ -1,9 +1,8 @@
-// using built in methods
+// ***using built in methods***
 const isPalindrome = function (num) {
   return num === +num.toString().split("").reverse().join("");
 };
-// console.log(isPalindrome(121));
-// using for loop
+//*** using for loop***
 function isPalindrome2(num) {
   const rev = reverseNumber(num);
   console.log(rev === num);
@@ -18,4 +17,3 @@ function reverseNumber(num) {
   }
   return rev;
 }
-isPalindrome2(245321);
